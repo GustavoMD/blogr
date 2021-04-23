@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Blogr]</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__nav-wrapper">
+        <a class="header__logo-link" href="/"
+          ><img src="../images/logo.svg" class="header__logo" alt="Blogr"
+        /></a>
+        <button class="header__open-mobile-menu open-menu-mobile-js">
+        </button>
+        <div class="header__links-wrapper">
+          <nav class="menu-navbar">
+            <div class="menu-navbar__wrapper">
+              <div class="category">
+                <a class="category__name"> Product </a>
+                <ul class="category__list">
+                  <li class="category__list-item">
+                    <a href="">Overview</a>
+                  </li>
+                  <li class="category__list-item">
+                    <a href="">Pricing</a>
+                  </li>
+                  <li class="category__list-item">
+                    <a href="">Marketplace</a>
+                  </li>
+                  <li class="category__list-item">
+                    <a href="">Features</a>
+                  </li>
+                  <li class="category__list-item">
+                    <a href="">Integrations</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="category">
+                <a class="category__name"> Company </a>
+                <ul class="category__list">
+                  <li class="category__list-item">
+                    <a href="">About</a>
+                  </li>
+                  <li class="category__list-item">
+                    <a href="">Team</a>
+                  </li>
+                  <li class="category__list-item">
+                    <a href="">Blog</a>
+                  </li>
+                  <li class="category__list-item">
+                    <a href="">Careers</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="category">
+                <a class="category__name"> Connect </a>
+                <ul class="category__list">
+                  <li class="category__list-item">
+                    <a href="">Contact</a>
+                  </li>
+                  <li class="category__list-item">
+                    <a href="">Newsletter</a>
+                  </li>
+                  <li class="category__list-item">
+                    <a href="">LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="header__buttons-wrapper">
+            <a href="" class="header__button">Login</a>
+            <a href="" class="header__button header__button--sign">Sign Up</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero">
+        <h1 class="hero__title">A modern publishing platform</h1>
+        <p class="hero__subtitle">
+          Grow your audience and build your online brand
+        </p>
+        <div class="hero__buttons">
+          <button class="hero__button">Start for Free</button>
+          <button class="hero__button hero__button--learn">Learn More</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article class="page-content">
+        <h2 class="page-content__title">Designed for the future</h2>
+
+        <section class="editor wrapper">
+          <div class="editor__wrapper">
+            <div class="editor__left-content">
+              <div class="functionality">
+                <h3 class="functionality__title">
+                  Introducing an extensible editor
+                </h3>
+                <p class="functionality__description">
+                  Blogr features an exceedingly intuitive interface which lets
+                  you focus on one thing: creating content. The editor supports
+                  management of multiple blogs and allows easy manipulation of
+                  embeds such as images, videos, and Markdown. Extensibility
+                  with plugins and themes provide easy ways to add functionality
+                  or change the looks of a blog.
+                </p>
+              </div>
+              <div class="functionality">
+                <h3 class="functionality__title">Robust content management</h3>
+                <p class="functionality__description">
+                  Flexible content management enables users to easily move
+                  through posts. Increase the usability of your blog by adding
+                  customized categories, sections, format, or flow. With this
+                  functionality, you’re in full control.
+                </p>
+              </div>
+            </div>
+            <div class="editor__right-content">
+              <img
+                src="../images/illustration-editor-desktop.svg"
+                alt="Editor Image"
+                class="editor__image"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="state-of-the-art">
+          <div class="state-of-the-art__content wrapper">
+            <div class="state-of-the-art__left">
+              <img
+                srcset="../images/illustration-phones.svg"
+                alt=""
+                class="state-of-the-art__image"
+              />
+            </div>
+            <div class="state-of-the-art__right">
+              <h3 class="state-of-the-art__title">
+                State of the Art Infrastructure
+              </h3>
+              <p class="state-of-the-art__paragraph">
+                With reliability and speed in mind, worldwide data centers
+                provide the backbone for ultra-fast connectivity. This ensures
+                your site will load instantly, no matter where your readers are,
+                keeping your site competitive.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="laptop wrapper">
+          <div class="laptop__content">
+            <div class="laptop__left">
+              <img
+                srcset="../images/illustration-laptop-mobile.svg,
+                        ../images/illustration-laptop-desktop.svg"
+                sizes="(max-width: 600px) 480px, 
+                        800px"
+                src="../images/illustration-laptop-desktop.svg"
+                alt="Free, open, simple"
+                class="laptop__image"
+              />
+            </div>
+            <div class="laptop__right">
+              <div class="laptop__content-block">
+                <h3 class="laptop__title">Free, open, simple</h3>
+                <p class="laptop__description">
+                  Blogr is a free and open source application backed by a large
+                  community of helpful developers. It supports features such as
+                  code syntax highlighting, RSS feeds, social media integration,
+                  third-party commenting tools, and works seamlessly with Google
+                  Analytics. The architecture is clean and is relatively easy to
+                  learn.
+                </p>
+              </div>
+              <div class="laptop__content-block">
+                <h3 class="laptop__title">Powerful tooling</h3>
+                <p class="laptop__description">
+                  Batteries included. We built a simple and straightforward CLI
+                  tool that makes customization and deployment a breeze, but
+                  capable of producing even the most complicated sites.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper wrapper">
+        <img src="../images/logo.svg" alt="" class="footer__logo" />
+        <div class="category">
+          <h4 class="category__name">Product</h4>
+          <a href="" class="category__item">Overview</a>
+          <a href="" class="category__item">Pricing</a>
+          <a href="" class="category__item">Marketplace</a>
+          <a href="" class="category__item">Features</a>
+          <a href="" class="category__item">Integrations</a>
+        </div>
+        <div class="category">
+          <h4 class="category__name">Company</h4>
+          <a href="" class="category__item">About</a>
+          <a href="" class="category__item">Team</a>
+          <a href="" class="category__item">Blog</a>
+          <a href="" class="category__item">Careers</a>
+        </div>
+        <div class="category">
+          <h4 class="category__name">Connect</h4>
+          <a href="" class="category__item">Contact</a>
+          <a href="" class="category__item">Newsletter</a>
+          <a href="" class="category__item">LinkedIn</a>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Gustavo Milcharek Dávila</a>.
+      </div>
+    </footer>
+  </body>
+</html>
